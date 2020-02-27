@@ -2,7 +2,7 @@
   <artifact type="jar" name="singleton">
     <output-path>$PROJECT_DIR$/out/artifacts/singleton</output-path>
     <root id="archive" name="singleton.jar">
-      <element id="module-output" name="ObjectPoolPatern" />
+      <element id="module-output" name="Repositorio_ES2" />
     </root>
   </artifact>
 </component>

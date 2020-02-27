@@ -2,7 +2,7 @@
   <artifact type="jar" name="ObjectPoolPattern">
     <output-path>$PROJECT_DIR$/out/artifacts/ObjectPoolPattern</output-path>
     <root id="archive" name="ObjectPoolPattern.jar">
-      <element id="module-output" name="ObjectPoolPatern" />
+      <element id="module-output" name="Repositorio_ES2" />
     </root>
   </artifact>
 </component>
