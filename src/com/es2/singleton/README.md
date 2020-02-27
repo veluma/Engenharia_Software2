@@ -14,3 +14,6 @@ A classe Singleton é responsável pela criação do objeto (static), enquanto q
 Muitas vezes as aplicações necessitam de uma estrutura global que permita o registo de variáveis transversais a toda a aplicação. Essas variáveis têm de ser registadas num objeto único, cuja criação deve ser feita de uma forma centralizada e controlada, de forma a evitar a criação de várias instâncias dessa classe.
 
 <h3>Pretende-se neste exercício aplicar o padrão Singleton a uma estrutura global da aplicação responsável por fazer o registo da path para a pasta onde a aplicação vai guardar os ficheiros e a connection string para a base de dados.</h3>
+
+<a href='http://ec2-18-220-227-92.us-east-2.compute.amazonaws.com/static/files/SingletonPattern/doc/index.html'>
+ JavaDocs</a>
