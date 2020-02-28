@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="APIMoodle">
+    <output-path>$PROJECT_DIR$/out/artifacts/APIMoodle</output-path>
+    <root id="archive" name="APIMoodle.jar">
+      <element id="module-output" name="Repositorio_ES2" />
+    </root>
+  </artifact>
+</component>
