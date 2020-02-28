@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.net.URL;
 import java.io.IOException;
 
-public class ReusablePool extends java.lang.Object {
+public class ReusablePool {
     private static ReusablePool instance;
     private Integer maxSize;
     private ArrayList<HttpURLConnection> free;
@@ -27,17 +27,16 @@ public class ReusablePool extends java.lang.Object {
     }
 
     public synchronized HttpURLConnection acquire() throws PoolExhaustedException, IOException {
-        if (used.size() >= maxSize) {
 
+        HttpURLConnection outConn = null;
+
+        if (used.size() >= maxSize) {
             throw new PoolExhaustedException();
         }
 
-        HttpURLConnection outConn = null;
-        if (free.isEmpty() == true) {
-
+        if (free.isEmpty()) {
             outConn = (HttpURLConnection) new URL("http://ipv.pt").openConnection();
         } else {
-
             outConn = free.get(0);
             free.remove(0);
             outConn.connect();
@@ -48,7 +47,7 @@ public class ReusablePool extends java.lang.Object {
     }
 
     public synchronized void release(HttpURLConnection conn) throws ObjectNotFoundException {
-        if (used.contains(conn) == false) {
+        if (!used.contains(conn)) {
             throw new ObjectNotFoundException();
         }
         conn.disconnect();
@@ -70,6 +69,5 @@ public class ReusablePool extends java.lang.Object {
     public synchronized void setMaxPoolSize(int maxSize) {
         this.maxSize = maxSize;
     }
-
 
 }
