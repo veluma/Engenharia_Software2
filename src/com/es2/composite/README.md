@@ -6,7 +6,7 @@ Uma escola é um exemplo de um compósito que pode ser dividido em outros compó
 
 Na estrutura do Composite, o Component é definido numa classe abstrata para representar objetos primitivos e objetos compósitos. As restantes classes são subclasses do objeto Component. A interface da classe abstrata representa o denominador comum de ambas classes derivadas.
 
-<img src='http://ec2-18-220-227-92.us-east-2.compute.amazonaws.com/static/files/CompositePattern/resources/Composite.png'>
+<img src='https://sourcemaking.com/files/v2/content/patterns/Composite.png'>
 
 <br>
 

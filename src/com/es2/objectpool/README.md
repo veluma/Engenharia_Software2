@@ -4,7 +4,7 @@ A criação de pools de objetos é uma prática popular para aumentar a eficiên
 
 O padrão de desenho Object Pool é um padrão estrutural que define o design de uma pool de objetos. Um processo pode reutilizar objetos da pool quando estes já não forem utilizados por nenhum outro processo.
 
-<img src='http://ec2-18-220-227-92.us-east-2.compute.amazonaws.com/static/files/ObjectPoolPattern/resources/objectpool.png'>
+<img src='https://sourcemaking.com/files/v2/content/patterns/Object_pool1.png'>
 
 <br>
 De forma a evitar que um processo fiquei à espera de um objeto, a pool pode criar novos objetos. Para evitar desperdício de recursos do sistema, a pool deve implementar um mecanismo de eliminação periódica de objetos.

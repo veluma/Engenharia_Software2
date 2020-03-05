@@ -6,7 +6,7 @@ Neste padrão existe uma dependência do cliente relativamente à interface que 
 
 O cliente interage sempre com o objeto que representa a interface com as implementações, que por sua vez delega os pedidos para o objeto pertencente à classe que contém a implementação. Desta forma, a implementação pode ser acrescentada em runtime, sem recompilar a aplicação. A imagem seguinte mostra a estrutura abstrata do padrão.
 
-<img src='http://ec2-18-220-227-92.us-east-2.compute.amazonaws.com/static/files/BridgePattern/resources/Bridge.png'>
+<img src='https://sourcemaking.com/files/v2/content/patterns/Bridge___.png'>
 <br>   
 
 <h3>Aplique o padrão Bridge a um componente que permita o acesso a vários serviços instanciados dinamicamente para armazenar e obter conteúdos.

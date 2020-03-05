@@ -7,9 +7,11 @@ Existem 3 tipos de padrões: de criação (facilitam a criação de objetos), es
 O Singleton é um padrão de criação, uma vez que condiciona a forma como um objeto é criado. Este padrão obriga à criação de uma única instância de um objeto na aplicação, quando ele for necessário pela primeira vez (lazy instantiation).
 
 
-<img src='http://ec2-18-220-227-92.us-east-2.compute.amazonaws.com/static/files/SingletonPattern/resources/singleton.png'>
+<img src='https://sourcemaking.com/files/v2/content/patterns/singleton1.png'>
+<img src='https://sourcemaking.com/files/v2/content/patterns/Singleton.png'>
+
  
-<br>
+<br><br>
 A classe Singleton é responsável pela criação do objeto (static), enquanto que os clientes dessa classe chamam um método assessor para aceder à instância do objecto. Desta forma, nenhum objeto adquire a posse do objeto Singleton.
 Muitas vezes as aplicações necessitam de uma estrutura global que permita o registo de variáveis transversais a toda a aplicação. Essas variáveis têm de ser registadas num objeto único, cuja criação deve ser feita de uma forma centralizada e controlada, de forma a evitar a criação de várias instâncias dessa classe.
 
