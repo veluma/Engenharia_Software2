@@ -1,5 +1,4 @@
 package com.es2.memento;
-
 import java.util.ArrayList;
 
 public class Server {
@@ -17,7 +16,7 @@ public class Server {
 
     public Server() {
     }
-
+ 
     public Memento backup(){
         return new Memento(studentNames);
     }

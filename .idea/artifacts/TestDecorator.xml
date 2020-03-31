@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TestDecorator">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestDecorator</output-path>
+    <root id="archive" name="TestDecorator.jar">
+      <element id="module-output" name="Repositorio_ES2" />
+    </root>
+  </artifact>
+</component>

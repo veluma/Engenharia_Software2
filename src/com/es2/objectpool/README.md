@@ -9,7 +9,7 @@ O padrão de desenho Object Pool é um padrão estrutural que define o design de
 <br>
 De forma a evitar que um processo fiquei à espera de um objeto, a pool pode criar novos objetos. Para evitar desperdício de recursos do sistema, a pool deve implementar um mecanismo de eliminação periódica de objetos.
 
-Para garantir uma política de criação de objetos coerente, a classe que implementa a pool deve ser Singleton.
+Para garantir uma política de criação de objetos coerente, a classe que implementa a pool deve ser TestSingleton.
 
 <h3>Aplique o padrão Object Pool à criação de uma pool de conexões para a página do IPV, utilizando objetos do tipo HttpURLConnection.
 
