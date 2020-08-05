@@ -1,29 +1,32 @@
-<h1>#Repositório de Engenharia de Software 2</h1>
+<h1>#Software Engineering Repository 2</h1>
 
 
-**Objetivos – Competências**
+** Objectives - Skills **
 <br>
-Implementar as melhores práticas no desenvolvimento de software, através de técnicas, arquiteturas e conceitos que promovam a sua manutenção evolutiva. Desenvolver software baseado em padrões. Desenhar e implementar testes de software.
+Implement best practices in software development, using techniques, architectures and concepts that promote its evolutionary maintenance. Develop standards-based software. Design and implement software tests.
 
-**Programa**
+**Program**
 <br>
-<br>1 Padrões de Desenho
-<br>1.1 Padrões de Criação
-<br>1.2 Padrões Comportamentais 1.3 Padrões Estruturais
+<br> ** 1 Design Patterns **
+<br> 1.1 Creation Patterns
+<br> 1.2 Behavioral Patterns
+<br> 1.3 Structural Standards
 <br>
-<br>2 Fundamentos de Testes de Software 2.1 Testes White-box
-<br>2.2 Testes Black-box
-<br>2.3 Diagramas Causa-Efeito
+<br> ** 2 Software Testing Fundamentals **
+<br> 2.1 White-box tests
+<br> 2.2 Black-box tests
+<br> 2.3 Cause-Effect Diagrams
 <br>
-<br>3 Testes de Unidade
-<br>3.1 Testes de Interface
-<br>3.2 Testes de Estruturas de Dados
-<br>3.3 Testes de Condições Limite
-<br>3.4 Testes de Caminhos de Execução
-<br>3.5 Testes de Caminhos de Tratamento de Erros
+<br> ** 3 Unit Tests **
+<br> 3.1 Interface Tests
+<br> 3.2 Testing of Data Structures
+<br> 3.3 Limit Condition Tests
+<br> 3.4 Tests of Execution Paths
+<br> 3.5 Error Handling Path Tests
 <br>
-<br>4 Testes de Sistema
-<br>4.1 Testes de Integração
-<br>4.2 Testes de Performance: Robustez, Disponibilidade e Capacidade 4.3TestesdeAceitação
-<br>4.4 Testes de Instalação
+<br> ** 4 System Tests **
+<br> 4.1 Integration Tests
+<br> 4.2 Performance Tests: Robustness, Availability and Capacity
+<br> 4.3 Acceptance Tests
+<br> 4.4 Installation Tests
 
